@@ -9,7 +9,85 @@
 //
 //-----------------------------------------------------------------------------------------------------------
 
- 
+.main-header{
+   position: absolute;
+   
+}
+.header-content{
+  width: 1140px;
+  margin-left: 390px; 
+  margin-top: 60px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo span{
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 23px;
+    
+}
+
+.nav-list{
+    width: 610px;
+    display: flex;
+    font-size: 18px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.nav-list a{
+    color: #ffffff;   
+}
+.nav-list a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.big-money{
+    padding-top: 150px;
+    background-image: url(../images/background-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1080px;
+    color: #ffffff;
+}
+.big-money h1{
+    font-size: 60px;
+    line-height: 72px;
+    width: 510px;
+    margin-top: 160px;
+    margin-left: 20.5%;
+}
+.big-money p{
+    width: 610px;
+    font-size: 21px;
+    line-height: 36px;
+    margin-left: 20.5%;
+    margin-top: 65px;
+}
+.big-money__buttons{
+    margin-top: 75px;
+   margin-left: 20.5%; 
+   font-size: 21px;
+    line-height: 36px;
+}
+.big-money  button{
+    width: 263px;
+    height: 66px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+.big-money  .big-money__button1{
+background-color: #ffffff;
+color: #000;
+}
+.big-money .big-money__button2{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-left: 25px;
+}
 // -----------------------------Media
 
 @import 'media'
