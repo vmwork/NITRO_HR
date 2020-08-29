@@ -86,7 +86,7 @@ color: #000;
 }
 .big-money .big-money__button2{
     background-color: transparent;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     margin-left: 25px;
 }
 .advantages{
@@ -125,7 +125,86 @@ color: #000;
     max-width: 1920px;
     margin: 0 auto;
     background-color: #a100f2;
+    display: flex;
 }
+.vacansy__left-block{
+    background-image: url(../images/vacansy_back.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 50.5%;
+    
+}
+.vacansy__left-block h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 300px;
+    margin-left: 390px;
+    margin-top: 220px;
+}
+.vacansy__left-block__title{
+    margin-left: 390px;
+    width: 263px;
+    border-left: 13px solid #ffffff;
+    height: 47px;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.vacansy__left-block__vacansy{
+    font-size: 21px;
+    font-weight: 400;
+    color: #ffffff;  
+    width: 330px;
+    margin-left: 390px;
+    margin-top: 45px;
+    line-height: 36px;
+}
+.vacansy__left-block button{
+    margin-left: 390px;
+    margin-top: 77px;
+    border-radius: 5px;
+    width: 263px;
+    height: 66px;
+    color: #ffffff; 
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    line-height: 36px;
+    font-size: 21px;
+    font-weight: 400;
+}
+.right-block__item{
+    display: flex;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: -85px;
+}
+.right-block__firs-item{ 
+    margin-top: 165px;
+}
+.right-block__item p{
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.right-block__item span{
+    display: block;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 32px;
+    line-height: 36px;
+    font-size: 18px;
+}
+.right-block__item:nth-child(1) span,
+.right-block__item:nth-child(2) span{
+    width: 450px;
+}
+
 // -----------------------------Media
 
 @import 'media'
