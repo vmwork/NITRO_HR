@@ -87,6 +87,25 @@
     margin-right:0px;
     margin-left: 100px;
 }
+.big-money h1{
+
+    margin-left: 10.5%;
+}
+.big-money p{
+
+    margin-left: 10.5%;
+
+}
+.big-money__buttons{
+
+   margin-left: 10.5%; 
+}
+.right-block__item p{
+    margin-top: 0;
+}
+.right-block__firs-item, .vacansy__left-block h2{
+    margin-top: 35px;
+}
 .earnings__left{
     display: none;
 }
@@ -111,11 +130,14 @@
    } 
    .vacansy__left-block h2{
        font-size: 26px;
-       width: 200px;   
+       width: 300px;   
    }
+   .vacansy__left-block p{
+    font-size: 26px;
+    width: 270px;   
+}
    .vacansy__left-block__title, .vacansy__left-block__vacansy{
-          font-size: 16px;
-          width: 200px;
+          width: 300px;
 
    }
    .right-block__item span{
@@ -127,5 +149,281 @@
 }
 .header__logo, .header-nav, .header-content{
     max-width: 700px;
+}
+.footer-nav, .footer__logo{
+    padding-bottom: 100px;
+    margin-left: 5%;
+    
+}
+.footer-nav{
+margin-top: 0;
+}
+.write-us{
+    padding-bottom: 100px;
+}
+    }
+
+    @media (min-width: 0px) and (max-width:768px){
+        .main-header{
+            position: absolute;
+            left:0;
+            margin-left:30px;
+            
+         }
+         .header-content, .main-footer-wrapper{
+            flex-direction: column;
+            justify-content: space-between;
+         }
+ .nav-list{
+     width: 290px;
+     max-width: 290px;
+     flex-direction: column;
+ }
+ .header-nav{
+    width: 290px;
+    max-width: 290px;
+ }
+ .nav-item{
+     margin-top: 7px;
+ }
+ .header-content, .header-nav, .header__logo {
+    max-width: 290px;
+}
+.big-money__buttons{
+
+   margin-left: 5%; 
+
+}
+
+.big-money .big-money__button2{
+ margin-top: 25px;
+    margin-left: 0px;
+}
+ .big-money h1{
+    width: 290px;
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 10.5%;
+}
+.big-money p{
+    width: 290px;
+    margin-left: 10.5%;
+
+}
+.big-money__buttons{
+
+   margin-left: 10.5%; 
+}
+ .advantages{
+    width: 290px;
+    margin: 0 auto;
+
+}
+.advantages-list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.advantages-item{
+    margin-left: 0px;
+}
+.advantages-item:nth-child(4){
+    margin-right:0px;
+    margin-left: 0px;
+}
+.advantages-item p {
+    width: 290px;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.right-block__item p{
+    margin-top: 0;
+}
+.right-block__firs-item, .vacansy__left-block h2{
+    margin-top: 35px;
+}
+.earnings__left{
+    display: none;
+}
+.section-vacansy{
+    flex-direction: column;
+}
+.vacansy__left-block{
+    background-image: url(../images/vacansy_back.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    padding-left: 20.2%;
+    
+}
+.vacansy__left-block {
+    padding-left: 3%;
+
+   } 
+   .vacansy__left-block h2{
+       font-size: 26px;
+       width: 300px;   
+   }
+
+   .vacansy__left-block__title, .vacansy__left-block__vacansy{
+          width: 300px;
+
+   }
+   .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
+    width: 200px;
+}
+.right-block__item{
+    margin-left: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.right-block__item img{
+    width: 100px;
+    margin-left: -75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.earnings__right h2{
+    font-size: 40px;
+    width: 290px;
+    margin-left: 5%;
+}
+.earnings__right__in-monts{
+    width: 290px;
+    height: 340px;
+   
+    
+    margin-top: 77px;
+    margin-left: 5%;
+}
+.earnings__right__in-monts p{
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 45px;
+    
+    font-size: 21px;
+    line-height: 36px;
+}
+.earnings__right__in-monts p:before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 210px;
+    border-left: 13px solid #f20089;
+    left: 0;
+    bottom: 0px;
+}
+.earnings__right__work-hard{
+
+    width: 290px;
+    margin-left: 5%;
+
+}
+.earnings__right__work-hard-button{
+    margin-left: 5%;
+ margin-bottom: 25px;
+}
+.connect p{
+    width: 290px;
+    padding-bottom: 25px;
+}
+.connect h2{
+    font-size: 30px;
+}
+.telegramm-wraper{
+    flex-wrap: wrap;
+}
+
+.telegramm p, .Jabber p{
+    width: 290px;
+   
+}
+.write-mail, .write-copy{
+    width: 290px;
+
+    
+}
+.write-copy{
+    width: 290px;  
+    
+}
+.telegramm h2, .Jabber h2{
+    font-size: 36px;
+}
+.telegramm, .Jabber {
+    margin-left: 5%;
+}
+.write-mail p, .write-copy p{
+    padding-left: 25px;
+}
+.write-copy p{
+    font-size: 23px;
+}
+.write-mail p:after, .write-copy p:after{
+    display: none;
+}
+
+.telegramm-wraper button{
+    margin-left: 5%;
+ 
+}
+.Jabber-wraper button{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .app, .main-footer{
+    display: none;
+}
+
+
+
+
+
+
+
+.connect h2,
+.app h2,
+   .connect p,
+    .app p,
+    .app-list{
+   margin-left: 30px;
+   }
+
+.main-footer-wrapper{
+    width: 768px;
+}
+
+   .right-block__item span{
+    display: block;
+    width: 200px;
+}
+
+
+.footer-nav, .footer__logo{
+    padding-bottom: 100px;
+    margin-left: 5%;
+    
+}
+.footer-nav{
+margin-top: 0;
+}
+.write-us{
+    padding-bottom: 100px;
 }
     }
