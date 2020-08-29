@@ -204,6 +204,177 @@ color: #000;
 .right-block__item:nth-child(2) span{
     width: 450px;
 }
+.earnings{
+    min-height: 1080px;
+    max-width: 1920px;
+    margin: 0 auto;
+  
+    display: flex;
+}
+.earnings__left{
+    background-image: url(../images/money.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 260px;
+    height: 1080px;
+    width: 42.5%;
+    margin-left: 40px;
+   
+}
+.earnings__right{
+    padding-top: 190px;
+}
+.earnings__right h2{
+    font-size: 60px;
+    width: 550px;
+    margin-left: 125px;
+}
+.earnings__right__in-monts{
+    width: 555px;
+    height: 200px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    
+    
+    margin-top: 77px;
+    margin-left: 125px;
+}
+.earnings__right__in-monts p{
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 45px;
+    
+    font-size: 21px;
+    line-height: 36px;
+}
+.earnings__right__in-monts p:before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 125px;
+    border-left: 13px solid #f20089;
+    left: 0;
+    bottom: -10px;
+}
+.earnings__right__in-monts p span{
+background-color: #fdd9ed;
+font-weight: bold;
+}
+.earnings__right__work-hard{
+    font-size: 21px;
+    line-height: 36px;
+    width: 550px;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.earnings__right__work-hard-button{
+    margin-left: 125px;
+     margin-top: 75px;
+    border-radius: 5px;
+    width: 263px;
+    height: 66px;
+    color: #ffffff; 
+    background-color: #f20089;
+    border: none;
+    line-height: 36px;
+    font-size: 21px;
+    font-weight: 400;
+}
+.connect{
+    min-height: 695px;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #a100f2;
+}
+.connect h2{
+font-size: 60px;
+margin-left: 390px;
+padding-top: 170px;
+}
+.connect p{
+font-size: 21px;
+line-height: 36px;
+width: 700px;
+margin-left: 390px;
+margin-top: 85px;
+}
+.write-us{
+    min-height: 930px;
+    background-color: #8900ce;
+    border-top: 1px solid #7500af;
+    border-bottom: 1px solid #7500af;
+    color: #ffffff;
+}
+.telegramm{
+   margin-top: 120px;
+   margin-left: 390px;
+}
+.Jabber{
+   margin-top: 80px;
+    margin-left: 390px; 
+}
+.telegramm h2, .Jabber h2{
+    font-size: 60px;
+}
+.telegramm p, .Jabber p{
+    font-size: 21px;
+    line-height:  36px;
+    width: 380px;
+    margin-top: 40px;
+}
+.write-mail, .write-copy{
+    width: 455px;
+    margin-top: 54px;
+    height: 110px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    
+}
+.write-copy{
+    width: 555px;
+    margin-top: 60px;
+    height: 110px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    
+}
+.telegramm-wraper, .telegramm-wraper{
+  display: flex;  
+}
+.write-mail p, .write-copy p{
+    position: relative;
+    font-size: 30px;
+    margin-top: 35px;
+    padding-left: 65px;
+}
+.write-mail p:after, .write-copy p:after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 40px;
+    right: -7px;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+}
+.write-copy p:after{
+    right: -110px;
+}
+.telegramm-wraper button{
+    width: 260px;
+    height: 110px;
+    border-radius: 5px;
+    margin-top: 54px;
+    margin-left: 30px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 30px;
+}
+.Jabber-wraper button{
+    margin-top: 60px;
+}
+
 
 // -----------------------------Media
 
