@@ -4,7 +4,7 @@
     } 
 
 }
-@media (min-width: 1239px) and (max-width:1400px){
+@media (min-width: 1000px) and (max-width:1400px){
     .connect h2,
      .app h2,
       .telegramm,
@@ -12,7 +12,35 @@
         .connect p,
          .app p,
          .app-list{
-        margin-left: 190px;
+        margin-left: 100px;
+        }
+        .header-content, .main-footer-wrapper{
+            width: 900px;
+        }
+        .advantages{
+            width: 1000px;
+
+        }
+        .advantages-list{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .advantages-item{
+            margin-left: 100px;
+        }
+        .advantages-item:nth-child(4){
+            margin-right:0px;
+            margin-left: 140px;
+        }
+        .right-block__item p{
+            margin-top: 0;
+        }
+        .right-block__item span{
+            display: block;
+            width: 300px;
+        }
+        .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
+            width: 300px;
         }
 
   
