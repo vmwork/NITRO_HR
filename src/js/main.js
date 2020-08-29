@@ -23,10 +23,27 @@
         });
 
         function writeUs() {
-            const writeMail = document.querySelectorAll('.writeUS-js');
-            console.log(writeMail)
+            const writeMail = document.querySelectorAll('.write-js');
+            const telegramName = document.querySelector('.write-mail p').textContent
+            writeMail.forEach(btn =>{
+                btn.addEventListener('click', () =>{
+                        console.log(telegramName.substring(1));
+                    window.open(`https://t.me/${telegramName.substring(1)}`);
+
+                
+                })
+            })
         }
         writeUs()
-
+        function cliboard(){
+            const copy = document.querySelector('.copy-js');
+            copy.addEventListener('click', () =>{
+                const copyText  = document.querySelector('.write-copy p').textContent
+             
+                navigator.clipboard.writeText(copyText)
+                
+            })
+        }
+        cliboard()
        
 })();
