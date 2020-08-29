@@ -21,7 +21,7 @@
   justify-content: space-between;
 }
 
-.header__logo span{
+.header__logo span, .footer__logo span{
     position: relative;
     bottom: 15px;
     font-size: 30px;
@@ -32,7 +32,7 @@
     
 }
 
-.nav-list{
+.nav-list, .footer-nav{
     width: 610px;
     display: flex;
     font-size: 18px;
@@ -132,6 +132,7 @@ color: #000;
     background-repeat: no-repeat;
     height: 1080px;
     width: 50.5%;
+    padding-left: 20.2%;
     
 }
 .vacansy__left-block h2{
@@ -139,11 +140,11 @@ color: #000;
     font-weight: 700;
     color: #ffffff;
     width: 300px;
-    margin-left: 390px;
+ 
     margin-top: 220px;
 }
 .vacansy__left-block__title{
-    margin-left: 390px;
+
     width: 263px;
     border-left: 13px solid #ffffff;
     height: 47px;
@@ -159,12 +160,12 @@ color: #000;
     font-weight: 400;
     color: #ffffff;  
     width: 330px;
-    margin-left: 390px;
+
     margin-top: 45px;
     line-height: 36px;
 }
 .vacansy__left-block button{
-    margin-left: 390px;
+
     margin-top: 77px;
     border-radius: 5px;
     width: 263px;
@@ -212,9 +213,10 @@ color: #000;
     display: flex;
 }
 .earnings__left{
-    background-image: url(../images/money.jpg);
+    background-image: url(../images/money2.png);
     background-repeat: no-repeat;
-    background-position-y: 260px;
+    background-size: contain;
+    background-position-y: 130px;
     height: 1080px;
     width: 42.5%;
     margin-left: 40px;
@@ -374,8 +376,73 @@ margin-top: 85px;
 .Jabber-wraper button{
     margin-top: 60px;
 }
-
-
+.app{
+    min-height: 695px;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #a100f2;
+    min-height: 490px;
+    border-bottom: 1px solid #7500af;
+}
+.app h2{
+    padding-top: 120px;
+    margin-left: 390px;
+}
+.app p{
+    margin-top: 43px;
+    margin-left: 390px;
+    width: 700px;
+    font-size: 21px;
+    line-height: 36px;
+}
+.app-list{
+    display: flex;
+    margin-left: 360px; 
+    margin-top: 50px;
+}
+.app-item{
+    margin-left: 30px;
+}
+.app-item img{
+    border-radius: 5px;
+}
+.main-footer{
+    min-height: 274px;
+    background-color: #8900ce;
+    
+}
+.main-footer-wrapper{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo span{
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 23px;
+    color: #ffffff;
+    
+}
+.footer-nav{
+    width: 610px;
+    display: flex;
+    font-size: 18px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.footer__logo{
+    margin-top: 100px;
+    // margin-left: 390px;
+}
+.footer-nav{
+    // margin-left: 320px;
+    margin-top: 95px;
+}
 // -----------------------------Media
 
 @import 'media'
