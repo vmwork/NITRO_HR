@@ -11,7 +11,7 @@
 
 .main-header{
    position: absolute;
-   left:50%; margin-left:-570px;
+   left:50%; margin-left:-565px;
 }
 .header-content{
   width: 1140px;
@@ -25,9 +25,10 @@
     position: relative;
     bottom: 15px;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 400;
     text-transform: uppercase;
     margin-left: 23px;
+    color: #ffffff;
     
 }
 
@@ -89,7 +90,7 @@ color: #000;
     margin-left: 25px;
 }
 .advantages{
-    min-width: 1080px;
+    min-height: 900px;
     width: 1140px;
     margin: 0 auto;
 }
@@ -118,6 +119,12 @@ color: #000;
     margin-top: 40px;
     font-size: 18px;
     line-height: 36px;
+}
+.section-vacansy{
+    min-height: 1080px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #a100f2;
 }
 // -----------------------------Media
 
