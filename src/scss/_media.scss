@@ -14,6 +14,11 @@
          .app-list{
         margin-left: 100px;
         }
+        .main-header{
+            position: absolute;
+            left:0;
+            margin-left:50px;
+         }
         .header-content, .main-footer-wrapper{
             width: 900px;
         }
@@ -42,7 +47,13 @@
         .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
             width: 300px;
         }
-
+        .vacansy__left-block {
+         padding-left: 5%;
+        } 
+        .earnings__left{
+  
+            background-position-y: 350px;
+        }
   
     }
 // @media (max-width:1024px){
