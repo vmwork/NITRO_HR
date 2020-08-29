@@ -163,7 +163,7 @@ margin-top: 0;
 }
     }
 
-    @media (min-width: 0px) and (max-width:768px){
+    @media (min-width: 0px) and (max-width:767px){
         .main-header{
             position: absolute;
             left:0;
@@ -188,6 +188,10 @@ margin-top: 0;
  }
  .header-content, .header-nav, .header__logo {
     max-width: 290px;
+}
+.big-money{
+    max-width: 767px;
+    margin: 0 auto;
 }
 .big-money__buttons{
 
@@ -373,23 +377,22 @@ margin-top: 0;
 .Jabber-wraper button{
     margin-top: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- .app, .main-footer{
-    display: none;
+.app p{
+    width: 290px;
 }
+.app-list{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -400,13 +403,12 @@ margin-top: 0;
 .connect h2,
 .app h2,
    .connect p,
-    .app p,
-    .app-list{
+    .app p{
    margin-left: 30px;
    }
 
-.main-footer-wrapper{
-    width: 768px;
+.main-footer-wrapper, .footer-nav{
+    width: 290px;
 }
 
    .right-block__item span{
