@@ -21,5 +21,12 @@
                 });
             });
         });
+
+        function writeUs() {
+            const writeMail = document.querySelectorAll('.writeUS-js');
+            console.log(writeMail)
+        }
+        writeUs()
+
        
 })();
