@@ -202,9 +202,19 @@
     max-width: 290px;
 }
 .big-money{
-    // max-width: 767px;
-    margin: 0 auto;
+
     min-height: 590px;
+    
+}
+.big-money-wrapper{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+  
     
 }
 .big-money__buttons{
@@ -223,18 +233,22 @@
     font-size: 33px;
     line-height: 36px;
     margin-left: 10.5%;
+
     margin-top: 8px;
 }
 .big-money p{
     width: 290px;
     margin-left: 10.5%;
+  
     font-size: 12px;
     line-height: 20px;
     margin-top: 40px;
 }
 .big-money__buttons{
     margin-top: 33px;
-   margin-left: 10%; 
+    width: 320px;
+   margin-left: 20%; 
+
 }
 .big-money button {
    width: 145px;
