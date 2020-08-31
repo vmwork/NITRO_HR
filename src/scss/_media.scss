@@ -515,6 +515,7 @@ margin-top: 0;
         display: none;
     }
 }
+
 @media (min-width: 1001px) and (max-width:1919px){
     .big-money-wrapper, .connect div{
         width: 1130px;
@@ -554,4 +555,28 @@ margin-top: 0;
         padding-left: 0;
     }
 
+}
+@media (min-width: 1200px) and (max-width:1300px){
+    .vacansy__left-block div{
+        padding-left: 0;
+        width: 480px;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1400px) and (max-width:1500px){
+    .vacansy__left-block div{
+        padding-left: 0;
+        width: 410px;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1501px) and (max-width:1700px){
+    .vacansy__left-block div{
+        padding-left: 0;
+        width: 330px;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
 }
