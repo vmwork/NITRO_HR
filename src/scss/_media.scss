@@ -4,7 +4,7 @@
     } 
 
 }
-@media (min-width: 1000px) and (max-width:1400px){
+@media  (max-width:1400px){
     .connect h2,
      .app h2,
       .telegramm,
@@ -56,124 +56,125 @@
         }
   
     }
-    @media (min-width: 768px) and (max-width:1000px){
-        .main-header{
-            position: absolute;
-            left:0;
-            margin-left:50px;
+//     @media (min-width: 768px) and (max-width:1000px){
+//         .main-header{
+//             position: absolute;
+//             left:0;
+//             margin-left:50px;
             
-         }
-         .header-content, .main-footer-wrapper{
-            flex-direction: column;
-            justify-content: space-between;
-         }
- .nav-list{
-     width: 680px;
-     max-width: 680px;
- }
- .advantages{
-    width: 768px;
-    margin: 0 auto;
+//          }
+//          .header-content, .main-footer-wrapper{
+//             flex-direction: column;
+//             justify-content: space-between;
+//          }
+//  .nav-list{
+//      width: 680px;
+//      max-width: 680px;
+//  }
+//  .advantages{
+//     width: 768px;
+//     margin: 0 auto;
 
-}
-.advantages-list{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.advantages-item{
-    margin-left: 100px;
-}
-.advantages-item:nth-child(4){
-    margin-right:0px;
-    margin-left: 100px;
-}
-.big-money h1{
+// }
+// .advantages-list{
+//     margin-top: 50px;
+//     margin-bottom: 50px;
+// }
+// .advantages-item{
+//     margin-left: 100px;
+// }
+// .advantages-item:nth-child(4){
+//     margin-right:0px;
+//     margin-left: 100px;
+// }
+// .big-money h1{
 
-    margin-left: 10.5%;
-}
-.big-money p{
+//     margin-left: 10.5%;
+// }
+// .big-money p{
 
-    margin-left: 10.5%;
+//     margin-left: 10.5%;
 
-}
-.big-money__buttons{
+// }
+// .big-money__buttons{
 
-   margin-left: 10.5%; 
-}
-.right-block__item p{
-    margin-top: 0;
-}
-.right-block__firs-item, .vacansy__left-block h2{
-    margin-top: 35px;
-}
-.earnings__left{
-    display: none;
-}
-.connect h2,
-.app h2,
- .telegramm,
-  .Jabber,
-   .connect p,
-    .app p,
-    .app-list{
-   margin-left: 30px;
-   }
-.telegramm-wraper{
-    flex-wrap: wrap;
+//    margin-left: 10.5%; 
+// }
+// .right-block__item p{
+//     margin-top: 0;
+// }
+// .right-block__firs-item, .vacansy__left-block h2{
+//     margin-top: 35px;
+// }
+// .earnings__left{
+//     display: none;
+// }
+// .connect h2,
+// .app h2,
+//  .telegramm,
+//   .Jabber,
+//    .connect p,
+//     .app p,
+//     .app-list{
+//    margin-left: 30px;
+//    }
+// .telegramm-wraper{
+//     flex-wrap: wrap;
    
-}
-.main-footer-wrapper{
-    width: 768px;
-}
-.vacansy__left-block {
-    padding-left: 3%;
+// }
+// .main-footer-wrapper{
+//     width: 768px;
+// }
+// .vacansy__left-block {
+//     padding-left: 3%;
 
-   } 
-   .vacansy__left-block h2{
-       font-size: 26px;
-       width: 300px;   
-   }
-   .vacansy__left-block p{
-    font-size: 26px;
-    width: 270px;   
-}
-   .vacansy__left-block__title, .vacansy__left-block__vacansy{
-          width: 300px;
+//    } 
+//    .vacansy__left-block h2{
+//        font-size: 26px;
+//        width: 300px;   
+//    }
+//    .vacansy__left-block p{
+//     font-size: 26px;
+//     width: 270px;   
+// }
+//    .vacansy__left-block__title, .vacansy__left-block__vacansy{
+//           width: 300px;
 
-   }
-   .right-block__item span{
-    display: block;
-    width: 200px;
-}
-.right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
-    width: 200px;
-}
-.header__logo, .header-nav, .header-content{
-    max-width: 700px;
-}
-.footer-nav, .footer__logo{
-    padding-bottom: 100px;
-    margin-left: 5%;
+//    }
+//    .right-block__item span{
+//     display: block;
+//     width: 200px;
+// }
+// .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
+//     width: 200px;
+// }
+// .header__logo, .header-nav, .header-content{
+//     max-width: 700px;
+// }
+// .footer-nav, .footer__logo{
+//     padding-bottom: 100px;
+//     margin-left: 5%;
     
-}
-.footer-nav{
-margin-top: 0;
-}
-.write-us{
-    padding-bottom: 100px;
-}
-    }
+// }
+// .footer-nav{
+// margin-top: 0;
+// }
+// .write-us{
+//     padding-bottom: 100px;
+// }
+//     }
 
-    @media (min-width: 0px) and (max-width:767px){
+    @media (min-width: 0px) and (max-width:1000px){
         .main-header{
             position: absolute;
             left:0;
-            margin-left:30px;
+            margin-left: 10.5%;
             
          }
          .header__logo img{
              width: 30px;
              height: auto;
+             
          }
          .header__logo span{
              font-size: 18px;
@@ -201,7 +202,7 @@ margin-top: 0;
     max-width: 290px;
 }
 .big-money{
-    max-width: 767px;
+    // max-width: 767px;
     margin: 0 auto;
     min-height: 590px;
     
@@ -303,10 +304,15 @@ margin-top: 0;
     padding-left: 20.2%;
     
 }
+.vacansy__left-block div, .vacansy__right-block {
+    width: 290px;
+    margin: 0 auto;
+}
 
-.vacansy__left-block {
+.vacansy__left-block{
     padding-left: 3%;
     height: 470px;
+    
 
    } 
    .vacansy__left-block h2{
@@ -393,6 +399,8 @@ margin-top: 30px;
     min-height: 730px;
 }
 .earnings{
+    width: 290px;
+    margin: 0 auto;
     min-height: 460px;
 }
 .earnings__right{
@@ -454,9 +462,13 @@ line-height: normal;
 
 }
 .connect{
+    
     min-height: 350px;
 }
-
+.connect div{
+    width: 290px;
+    margin: 0 auto;
+}
 .connect h2{
     padding: 0;
     padding-top: 85px;
@@ -470,6 +482,7 @@ line-height: normal;
     line-height: 18px;
 }
 .write-us{
+    
     min-height: 668px;
     padding-bottom: 0;
 }
@@ -477,6 +490,8 @@ line-height: normal;
     flex-wrap: wrap;
 }
 .telegramm{
+    width: 290px;
+    margin: 0 auto;
     margin-top: 52px;
 }
 .telegramm h2, .Jabber h2{
@@ -485,6 +500,10 @@ line-height: normal;
     margin-left: 4%;
 }
 .Jabber{
+   
+    margin-left: 0;
+    width: 290px;
+    margin: 0 auto;
     margin-top: 57px;
 }
 .Jabber h2{
@@ -526,9 +545,9 @@ line-height: normal;
 .write-copy p{
     font-size: 14px;
 }
-.telegramm, .Jabber {
-    margin-left: 5%;
-}
+// .telegramm, .Jabber {
+//     margin-left: 5%;
+// }
 .write-mail p, .write-copy p{
     padding-left: 25px;
 }
@@ -555,8 +574,14 @@ line-height: normal;
 .Jabber-wraper button{
     margin-top: 18px;
 }
-.app{
+.app {
     min-height: 290px;
+
+}
+.app div{
+    min-height: 290px;
+    width: 290px;
+    margin: 0 auto;
 }
 .app p{
     width: 290px;
