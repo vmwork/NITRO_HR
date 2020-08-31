@@ -60,10 +60,14 @@
     @media (min-width: 0px) and (max-width:1000px){
         .main-header{
             position: absolute;
-            left:0;
-            margin-left: 10.5%;
-            
+            left:50%;
+            margin-left: -130px;
          }
+         .header-content{
+            width: 320px;
+
+          }
+ 
          .header__logo img{
              width: 30px;
              height: auto;
@@ -217,7 +221,7 @@
 }
 
 .vacansy__left-block{
-    padding-left: 3%;
+    padding-left: 0%;
     height: 470px;
     
 
@@ -227,12 +231,12 @@
        line-height: 38px;
        width: 300px;   
        margin-top: 75px;
-       margin-left: 20px;
+       margin-left: 15px;
    }
    .vacansy__left-block__title{
        font-size: 12px;
        margin-top: 32px;
-       margin-left: 20px;
+       margin-left: 15px;
        padding: 7px 0 0 17px;
        border-left: 8px solid #fff;
        height: 25px;
@@ -241,7 +245,7 @@
     font-size: 12px; 
     display: block;
     width: 200px;
-    margin-left: 22px;
+    margin-left: 15px;
     margin-top: 30px;
     line-height: 20px;
    }
@@ -249,7 +253,7 @@
        width: 150px;
        height: 40px;
        font-size: 12px;
-       margin-left: 20px;
+       margin-left: 15px;
        margin-top: 40px;
    }
    .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
@@ -263,7 +267,7 @@
 }
 .right-block__item img{
     width: 100px;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -313,12 +317,12 @@ margin-top: 30px;
 .earnings__right{
     padding-top: 60px;
     
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .earnings__right h2{
     font-size: 28px;
     width: 250px;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 .earnings__right__in-monts{
     width: 290px;
@@ -326,7 +330,7 @@ margin-top: 30px;
   
     border-top: 0px ;
     margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 .earnings__right__in-monts p:before {
     position: absolute;
@@ -352,7 +356,7 @@ margin-top: 30px;
     font-size: 10px;
     line-height: 18px;
     width: 290px;
-    margin-left: 4%;
+    margin-left: 0%;
     margin-top: 20px;
     width: 250px;
 
@@ -361,7 +365,7 @@ margin-top: 30px;
 margin: 0;
 padding: 0;
 margin-top: 38px;
-margin-left: 4%;
+margin-left: 0%;
 line-height: normal;
  width: 125px;
  height: 30px;
@@ -400,14 +404,15 @@ line-height: normal;
     width: 290px;
     margin: 0 auto;
     margin-top: 52px;
+    padding-left: 15px;
 }
 .telegramm h2, .Jabber h2{
     width: 140px;
     font-size: 28px;
-    margin-left: 4%;
+    
 }
 .Jabber{
-   
+    padding-left: 15px;
     margin-left: 0;
     width: 290px;
     margin: 0 auto;
@@ -423,7 +428,7 @@ line-height: normal;
     width: 180px;
     font-size: 10px;
     margin-top: 20px;
-    margin-left: 4%;
+ 
     line-height: 18px;
    
 }
@@ -431,7 +436,7 @@ line-height: normal;
     width: 215px;
     height: 55px;
     margin-top: 20px;
-    margin-left: 5%;
+ 
   
 }
 .write-mail p, .write-copy p{
@@ -475,7 +480,7 @@ line-height: normal;
 }
 .telegramm-wraper button{
      
-    margin-left: 5%;
+    margin-left: 0%;
  
 }
 .Jabber-wraper button{
@@ -508,13 +513,13 @@ line-height: normal;
     margin-left: 10px;
 }
 .app-list{
-    margin-left: 25px;
+    margin-left: 5px;
 }
 .connect h2,
 .app h2,
    .connect p,
     .app p{
-   margin-left: 30px;
+   margin-left: 15px;
    }
 .app h2{
     width: 250px;
