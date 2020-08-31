@@ -1,62 +1,5 @@
-@media (max-width:1400px){
-    .vacansy__left-block {
-        padding-left: 10.2%;
-    } 
 
-}
-@media  (max-width:1400px){
-    .connect h2,
-     .app h2,
-      .telegramm,
-       .Jabber,
-        .connect p,
-         .app p,
-         .app-list{
-        margin-left: 100px;
-        }
-        .main-header{
-            position: absolute;
-            left:0;
-            margin-left:50px;
-         }
-        .header-content, .main-footer-wrapper{
-            width: 900px;
-        }
-        .advantages{
-            width: 1000px;
-
-        }
-        .advantages-list{
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .advantages-item{
-            margin-left: 100px;
-        }
-        .advantages-item:nth-child(4){
-            margin-right:0px;
-            margin-left: 140px;
-        }
-        .right-block__item p{
-            margin-top: 0;
-        }
-        .right-block__item span{
-            display: block;
-            width: 300px;
-        }
-        .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
-            width: 300px;
-        }
-        .vacansy__left-block {
-         padding-left: 5%;
-        } 
-        .earnings__left{
-  
-            background-position-y: 350px;
-        }
-  
-    }
-
+    
     @media (min-width: 0px) and (max-width:1000px){
         .main-header{
             position: absolute;
@@ -571,4 +514,44 @@ margin-top: 0;
     .header-nav{
         display: none;
     }
+}
+@media (min-width: 1001px) and (max-width:1919px){
+    .big-money-wrapper, .connect div{
+        width: 1130px;
+         max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .big-money h1, .big-money p, .big-money__buttons,
+    .connect h2, .connect p,
+     .telegramm, .Jabber,
+      .app h2, .app p, .app-list{
+        margin-left: 0;
+    }
+    .telegramm, .Jabber{
+        width: 1130px;
+         max-width: 1920px;
+        margin: 0 auto;
+    }
+    .Jabber{
+        margin-top: 80px;
+    }
+    .app div{
+        width: 1130px;
+        max-width: 1920px;
+       margin: 0 auto;
+    }
+    .app-item:first-child{
+        margin-left: 0;
+    }
+    .vacansy__left-block div{
+        padding-left: 0;
+        width: 440px;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    .vacansy__left-block {
+        padding-left: 0;
+    }
+
 }
