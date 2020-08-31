@@ -170,6 +170,16 @@ margin-top: 0;
             margin-left:30px;
             
          }
+         .header__logo img{
+             width: 30px;
+             height: auto;
+         }
+         .header__logo span{
+             font-size: 18px;
+             margin: 0 0 0 18px;
+             bottom: 10px;
+             
+         }
          .header-content, .main-footer-wrapper{
             flex-direction: column;
             justify-content: space-between;
@@ -192,9 +202,12 @@ margin-top: 0;
 .big-money{
     max-width: 767px;
     margin: 0 auto;
+    min-height: 590px;
+    
 }
 .big-money__buttons{
-
+    display: flex;
+    flex-direction: column;
    margin-left: 5%; 
 
 }
@@ -205,23 +218,44 @@ margin-top: 0;
 }
  .big-money h1{
     width: 290px;
-    font-size: 30px;
+    font-size: 33px;
     line-height: 36px;
     margin-left: 10.5%;
+    margin-top: 8px;
 }
 .big-money p{
     width: 290px;
     margin-left: 10.5%;
-
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 40px;
 }
 .big-money__buttons{
-
-   margin-left: 10.5%; 
+    margin-top: 33px;
+   margin-left: 10%; 
+}
+.big-money button {
+   width: 145px;
+    height: 35px; 
+    font-size: 12px;
+}
+.big-money .big-money__button2 {
+    margin-top: 20px;
+    margin-left: 0;
 }
  .advantages{
     width: 290px;
     margin: 0 auto;
 
+}
+.advantages-item img{
+    width: 45px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.advantages-item:not(:first-child) img{
+    margin-top: 28px;
 }
 .advantages-list{
     margin-top: 50px;
@@ -234,11 +268,17 @@ margin-top: 0;
     margin-right:0px;
     margin-left: 0px;
 }
-.advantages-item p {
-    width: 290px;
+.advantages-item h3{
+    font-size: 16px;
+    margin-left: 7px;
     margin-top: 40px;
-    font-size: 18px;
-    line-height: 36px;
+}
+.advantages-item p {
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 12px;
+    line-height: 28px;
 }
 
 .right-block__item p{
@@ -262,35 +302,100 @@ margin-top: 0;
     padding-left: 20.2%;
     
 }
+
 .vacansy__left-block {
     padding-left: 3%;
+    height: 470px;
 
    } 
    .vacansy__left-block h2{
-       font-size: 26px;
+       font-size: 34px;
+       line-height: 38px;
        width: 300px;   
+       margin-top: 75px;
+       margin-left: 20px;
    }
-
-   .vacansy__left-block__title, .vacansy__left-block__vacansy{
-          width: 300px;
-
+   .vacansy__left-block__title{
+       font-size: 12px;
+       margin-top: 32px;
+       margin-left: 20px;
+       padding: 7px 0 0 17px;
+       border-left: 8px solid #fff;
+       height: 25px;
+   }
+.vacansy__left-block__vacansy{
+    font-size: 12px; 
+    display: block;
+    width: 200px;
+    margin-left: 22px;
+    margin-top: 30px;
+    line-height: 20px;
+   }
+   .vacansy__left-block button{
+       width: 150px;
+       height: 40px;
+       font-size: 12px;
+       margin-left: 20px;
+       margin-top: 40px;
    }
    .right-block__item:nth-child(1) span, .right-block__item:nth-child(2) span {
     width: 200px;
 }
 .right-block__item{
     margin-left: 0px;
-    flex-direction: column;
-    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+
 }
 .right-block__item img{
     width: 100px;
-    margin-left: -75px;
-    margin-top: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
     margin-bottom: 25px;
 }
+.right-block__item div{
+margin-top: 40px;
+margin-left: 15px;
+}
+
+.right-block__item p {
+    font-size: 18px;
+        margin: 0;
+    
+}
+.right-block__item span {
+    font-size: 10px;
+    line-height: 22px;
+    margin: 0;
+    width: 140px!important;
+}
+.right-block__item:nth-child(2) div{
+margin-top: 30px;
+}
+.right-block__item:nth-child(2) img{
+    margin-top: 20px;
+    }
+    .right-block__item:nth-child(3) div{
+        margin-top: 22px;
+        }
+        .right-block__item:nth-child(3) img{
+            margin-top: 15px;
+            }
+            .right-block__item:nth-child(4) div{
+                margin-top: 22px;
+                }
+                .right-block__item:nth-child(4) img{
+                    margin-top: 15px;
+                    }
+.vacansy__right-block{
+
+    min-height: 730px;
+}
+.earnings__right{
+    padding-top: 0;
+}
 .earnings__right h2{
-    font-size: 40px;
+    font-size: 32px;
     width: 290px;
     margin-left: 5%;
 }
@@ -383,23 +488,6 @@ margin-top: 0;
 .app-list{
     margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .connect h2,
 .app h2,
    .connect p,
@@ -429,3 +517,8 @@ margin-top: 0;
     padding-bottom: 100px;
 }
     }
+@media(max-width: 1000px){
+    .header-nav{
+        display: none;
+    }
+}
