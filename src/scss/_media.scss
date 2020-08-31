@@ -120,6 +120,7 @@
    }
 .telegramm-wraper{
     flex-wrap: wrap;
+   
 }
 .main-footer-wrapper{
     width: 768px;
@@ -388,79 +389,142 @@ margin-top: 30px;
                     margin-top: 15px;
                     }
 .vacansy__right-block{
-
+    
     min-height: 730px;
 }
+.earnings{
+    min-height: 460px;
+}
 .earnings__right{
-    padding-top: 0;
+    padding-top: 60px;
+    
+    margin-left: 20px;
 }
 .earnings__right h2{
-    font-size: 32px;
-    width: 290px;
+    font-size: 28px;
+    width: 250px;
     margin-left: 5%;
 }
 .earnings__right__in-monts{
     width: 290px;
-    height: 340px;
-   
-    
-    margin-top: 77px;
+    height: 115px;
+  
+    border-top: 0px ;
+    margin-top: 20px;
     margin-left: 5%;
+}
+.earnings__right__in-monts p:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 60px;
+    border-left: 8px solid #f20089;
+    left: -5px;
+    top: 40px;
 }
 .earnings__right__in-monts p{
     display: block;
     position: relative;
-    padding-top: 50px;
-    padding-left: 45px;
-    
-    font-size: 21px;
-    line-height: 36px;
-}
-.earnings__right__in-monts p:before{
-    position: absolute;
-    content: "";
-    width: 10px;
-    height: 210px;
-    border-left: 13px solid #f20089;
-    left: 0;
-    bottom: 0px;
-}
-.earnings__right__work-hard{
+    padding-top: 45px;
+    padding-left: 20px;
+    width: 250px;
+    font-size: 10px;
+    line-height: 18px;
 
+}
+
+.earnings__right__work-hard{
+    font-size: 10px;
+    line-height: 18px;
     width: 290px;
-    margin-left: 5%;
+    margin-left: 4%;
+    margin-top: 20px;
+    width: 250px;
 
 }
 .earnings__right__work-hard-button{
-    margin-left: 5%;
- margin-bottom: 25px;
+margin: 0;
+padding: 0;
+margin-top: 38px;
+margin-left: 4%;
+line-height: normal;
+ width: 125px;
+ height: 30px;
+ font-size: 10px;
+
+}
+.connect{
+    min-height: 350px;
+}
+
+.connect h2{
+    padding: 0;
+    padding-top: 85px;
+    font-size: 28px;
+    width: 250px;
 }
 .connect p{
-    width: 290px;
-    padding-bottom: 25px;
+    margin-top: 32px;
+    width: 270px;
+    font-size: 10px;
+    line-height: 18px;
 }
-.connect h2{
-    font-size: 30px;
+.write-us{
+    min-height: 668px;
+    padding-bottom: 0;
 }
 .telegramm-wraper{
     flex-wrap: wrap;
 }
-
+.telegramm{
+    margin-top: 52px;
+}
+.telegramm h2, .Jabber h2{
+    width: 140px;
+    font-size: 28px;
+    margin-left: 4%;
+}
+.Jabber{
+    margin-top: 57px;
+}
+.Jabber h2{
+    width: 250px;
+}
+.dblock{
+    display: block;
+}
 .telegramm p, .Jabber p{
-    width: 290px;
+    width: 180px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 4%;
+    line-height: 18px;
    
 }
 .write-mail, .write-copy{
-    width: 290px;
+    width: 215px;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 5%;
+  
+}
+.write-mail p, .write-copy p{
+    font-size: 14px;
+    line-height: normal;
+}
 
-    
+.telegramm-wraper button, .Jabber-wraper button {
+    width: 125px;
+    height: 55px;
+    font-size: 14px;
+    margin-top: 20px;
 }
 .write-copy{
-    width: 290px;  
-    
+    margin-top: 30px;
+    width: 260px;
 }
-.telegramm h2, .Jabber h2{
-    font-size: 36px;
+.write-copy p{
+    font-size: 14px;
 }
 .telegramm, .Jabber {
     margin-left: 5%;
@@ -468,25 +532,51 @@ margin-top: 30px;
 .write-mail p, .write-copy p{
     padding-left: 25px;
 }
-.write-copy p{
-    font-size: 23px;
-}
-.write-mail p:after, .write-copy p:after{
-    display: none;
-}
 
+.write-mail p:after, .write-copy p:after{
+  background-size: 40%;
+}
+.write-mail p:after{
+    right: -20px;
+    top: 0px;
+}
+.write-copy p:after{
+    right: -65px;
+    top: 0px;
+}
+.telegramm-wraper{
+    flex-direction: column;
+}
 .telegramm-wraper button{
+     
     margin-left: 5%;
  
 }
 .Jabber-wraper button{
-    margin-top: 60px;
+    margin-top: 18px;
+}
+.app{
+    min-height: 290px;
 }
 .app p{
     width: 290px;
+    font-size: 10px;
+    line-height: 18px;
+    margin-top: 20px;
 }
 .app-list{
     margin-left: 0;
+}
+.app-item img{
+    margin-top: 0;
+    width: 30px;
+    height: auto;
+}
+.app-item{
+    margin-left: 10px;
+}
+.app-list{
+    margin-left: 25px;
 }
 .connect h2,
 .app h2,
@@ -494,7 +584,11 @@ margin-top: 30px;
     .app p{
    margin-left: 30px;
    }
-
+.app h2{
+    width: 250px;
+    padding: 65px 0 0 0;
+    font-size: 12px;
+}
 .main-footer-wrapper, .footer-nav{
     width: 290px;
 }
@@ -513,9 +607,28 @@ margin-top: 30px;
 .footer-nav{
 margin-top: 0;
 }
-.write-us{
-    padding-bottom: 100px;
+.footer__logo {
+    margin-top: 40px;
+    padding-bottom: 0;
 }
+.footer__logo img{
+
+             width: 30px;
+             height: auto;
+         }
+         .footer__logo span{
+             font-size: 18px;
+             margin: 0 0 0 5px;
+             bottom: 10px;
+             
+         }
+         .footer-nav{
+             display: none;
+         }
+
+    }
+    .main-footer{
+        min-height: 125px;
     }
 @media(max-width: 1000px){
     .header-nav{
