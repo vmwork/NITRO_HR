@@ -609,4 +609,16 @@ margin-top: 0;
     .right-block__item span{
         width: 90%;
     }
+    .main-header{
+        position: absolute;
+        left:15%;
+        margin-left: -150px;
+     }
+}
+@media (min-width: 1001px) and (max-width:1170px){
+    .main-header{
+        position: absolute;
+        left:15%;
+        margin-left: -150px;
+     }
 }
