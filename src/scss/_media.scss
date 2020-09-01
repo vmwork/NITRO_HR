@@ -336,7 +336,7 @@ line-height: normal;
     line-height: 18px;
 }
 .write-us{
-    
+  
     min-height: 668px;
     padding-bottom: 0;
 }
@@ -348,6 +348,7 @@ line-height: normal;
     margin: 0 auto;
     margin-top: 52px;
     padding-left: 15px;
+    
 }
 .telegramm h2, .Jabber h2{
     width: 140px;
@@ -360,6 +361,7 @@ line-height: normal;
     width: 290px;
     margin: 0 auto;
     margin-top: 57px;
+  
 }
 .Jabber h2{
     width: 250px;
@@ -534,6 +536,10 @@ margin-top: 0;
          max-width: 1920px;
         margin: 0 auto;
     }
+    .telegramm{
+        padding-top: 120px;
+       
+     }
     .Jabber{
         margin-top: 80px;
     }
@@ -578,5 +584,29 @@ margin-top: 0;
         width: 330px;
         max-width: 1920px;
         margin: 0 auto;
+    }
+}
+@media (min-width: 1001px) and (max-width:1140px){
+    .main-footer-wrapper, .header-content {
+        width: 990px;
+    }
+    .big-money-wrapper, .connect div {
+        width: 990px;
+    }
+    .advantages {
+        width: 990px;
+    }
+    .Jabber, .telegramm {
+        width: 990px;
+    }
+    .app div {
+        width: 990px;
+    }
+  
+    
+}
+@media (min-width: 1001px) and (max-width:1040px){
+    .right-block__item span{
+        width: 90%;
     }
 }
